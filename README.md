@@ -33,11 +33,7 @@ The context percentage is green under 50%, yellow from 50 to 74%, and red at 75%
 
 ### Usage
 
-Run
-```bash
-chmod +x /path/to/status_line.sh
-```
-and add
+Add
 ```json
 "statusLine": { "type": "command", "command": "bash /path/to/status_line.sh" }
 ```
